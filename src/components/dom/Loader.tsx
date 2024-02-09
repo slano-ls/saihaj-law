@@ -38,7 +38,7 @@ export const Loader: React.FC<LoaderProps> = ({ setUnmount }) => {
         style={textSpring1}
         className='relative text-3xl text-white font-fog bottom-8'
       >
-        Saihaj <i>'SLANO'</i> Law
+        Saihaj <i>&lsquoSLANO&lsquo</i>  Law
       </a.span>
     </a.div>
   )
