@@ -1,10 +1,10 @@
 import Head from 'next/head'
 
-const titleDefault = 'Joseph Dale Bañares'
-const url = 'https://daleban3d.vercel.app/'
+const titleDefault = 'Saihaj Law'
+const url = 'https://saihaj-law.vercel.app/'
 const description =
-  'Joseph Dale Bañares is a Creative Developer based in the Philippines. He is an autodidact with a passion for building beautiful and interactive websites.'
-const author = 'Joseph Dale Bañares'
+  'Saihaj Law is a Student Developer with a deep interest in Low-Level Programming, Quantum Computing, and Cybersecurity'
+const author = 'Saihaj Singh Law'
 
 const Header = ({ title = titleDefault }) => {
   return (
@@ -23,7 +23,7 @@ const Header = ({ title = titleDefault }) => {
         <meta name='description' content={description} />
         <meta
           name='keywords'
-          content='Software Engineer, Creative Developer, React Developer, Filipino Developer, 3D Develper'
+          content='Software Engineer, Creative Developer, React Developer, Student Developer, 3D Develper'
         />
         <meta name='robots' content='index,follow' />
         <meta name='distribution' content='web' />
