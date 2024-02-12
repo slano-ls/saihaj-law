@@ -17,31 +17,37 @@ const ProjectsShader: React.FC = () => {
 
   const images = [
     {
-      title: 'Uno',
+      title: 'SLLang',
       position: [-0.1, -1 + posY, -0.09],
-      src: '/img/projects/iphone.jpg',
-      url: 'https://iphone-config.vercel.app/',
+      src: '/img/projects/s_icon.png',
+      url: 'https://github.com/slano-ls/SLLang/',
     },
 
     {
-      title: 'Dos',
+      title: 'Linux Suite',
       position: [0.1, -2 + posY, -0.09],
-      src: '/img/projects/laptop.jpg',
-      url: 'https://umamin.link/',
+      src: '/img/projects/linux.png',
+      url: 'https://github.com/slano-ls/365_Days_of_Code/blob/main/Day%205_3.C',
     },
 
     {
-      title: 'Tres',
+      title: 'Security Blog',
       position: [-0.1, -3 + posY, -0.09],
-      src: '/img/projects/hello.jpg',
-      url: 'https://chatti.vercel.app',
+      src: '/img/projects/csec.png',
+      url: 'https://slano-ls.github.io/#',
     },
 
     {
-      title: 'Cuatro',
+      title: 'Musings',
       position: [0.1, -4 + posY, -0.09],
-      src: '/img/projects/head.jpg',
-      url: 'https://github.com/hyamero',
+      src: '/img/projects/quill.png',
+      url: 'https://github.com/slano-ls',
+    },
+    {
+      title: 'Programming Blog',
+      position: [-0.1, -5 + posY, -0.09],
+      src: '/img/projects/computer.png',
+      url: 'https://github.com/slano-ls',
     },
   ]
 
@@ -58,7 +64,7 @@ const ProjectsShader: React.FC = () => {
       />
 
       <ScrollControls
-        pages={5.5}
+        pages={6.5}
         distance={1}
         damping={4}
         horizontal={false}
